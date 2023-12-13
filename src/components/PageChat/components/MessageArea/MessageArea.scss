@@ -1,0 +1,33 @@
+@import '../../../../variables';
+
+.general-message {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 12px;
+
+  &.my {
+    align-self: flex-start;
+    border: 1px solid $main-color;
+
+    p {
+      align-self: flex-start;
+    }
+  }
+  
+  &.user {
+    align-self: flex-end;
+    background-color: $main-color;
+
+    p {
+      align-self: flex-end;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,60 @@
+import { Message } from "../models/Message";
+
+export const MessageMok: Message[] = [
+  {
+    id: 1,
+    isMy: true,
+    isUnread: false,
+    text: 'Отправляй файлы',
+    sendDate: '2017-07-28T21:34:55.830Z',
+    sectionId: 5,
+  },
+  {
+    id: 2,
+    isMy: false,
+    isUnread: true,
+    text: 'Привет! Как твои дела?',
+    sendDate: '2017-07-28T22:10:23.520Z',
+    sectionId: 1,
+  },
+  {
+    id: 3,
+    isMy: true,
+    isUnread: true,
+    text: 'У меня все отлично, спасибо! А у тебя?',
+    sendDate: '2017-07-28T22:13:45.920Z',
+    sectionId: 1,
+  },
+  {
+    id: 4,
+    isMy: false,
+    isUnread: false,
+    text: 'У меня тоже все хорошо, спасибо!',
+    sendDate: '2017-07-28T22:15:10.320Z',
+    sectionId: 2,
+  },
+  {
+    id: 5,
+    isMy: true,
+    isUnread: false,
+    text: 'Что нового?',
+    sendDate: '2017-07-28T22:17:55.720Z',
+    sectionId: 2,
+  },
+  {
+    id: 6,
+    isMy: false,
+    isUnread: false,
+    text: 'Ничего особенного, просто работаю.',
+    sendDate: '2017-07-28T22:20:30.620Z',
+    sectionId: 2,
+  },
+  {
+    id: 7,
+    isMy: false,
+    isUnread: false,
+    text: 'Жду',
+    sendDate: '2017-07-28T22:22:45.420Z',
+    sectionId: 3,
+  },
+]

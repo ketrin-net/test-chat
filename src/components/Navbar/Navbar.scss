@@ -1,0 +1,28 @@
+@import '../../variables';
+
+#navbar {
+  height: 80vh;
+  overflow-y: auto;
+  margin: 20px 40px;
+  border-radius: 18px;
+  box-shadow: $main-color 0px 10px 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#navbar::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+#navbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#navbar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+#navbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.1);
+}

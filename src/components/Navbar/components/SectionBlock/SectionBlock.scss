@@ -1,0 +1,19 @@
+@import '../../../../variables';
+
+.btn-section {
+  border-bottom: 1px solid $main-color;
+  font-size: 16px;
+  min-height: 30px;
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+
+  .circle-unread {
+    color: $main-color-without-opacity;
+    font-weight: bold;
+    background-color: white;  
+  }
+}
+

@@ -1,0 +1,18 @@
+@import '../../variables';
+
+#page-chat {
+  height: 80vh;
+  margin: 20px 40px 20px 0px;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+
+  .window-msg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

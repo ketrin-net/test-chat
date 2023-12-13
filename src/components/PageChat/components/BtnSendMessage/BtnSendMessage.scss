@@ -1,0 +1,10 @@
+form {
+  flex-basis: content;
+  display: flex;
+  gap: 5px;
+
+  input[type=submit] {
+    align-self: flex-end;
+    height: 40px;
+  }
+}
